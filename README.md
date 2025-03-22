@@ -26,14 +26,22 @@ _2.<p><a href="https://github.com/hackesofice">ꕥؖؖؖؖؖꕹؖؖؖؖؖؖؖؖ�
 
 ```
 termux-setup-storage -y
+pkg uninstall python -y
+pkg install python -y
+pkg upgrade && update -y
+pip uninstall requests chardet urllib3 idna certifi -y
+pip install chardet urllib3 idna certifi requests bs4
+pkg update -y
+pkg upgrade -y
+pkg install ssl -y
 pkg install python -y
 pkg update && upgrade -y
 pip install chardet urllib3 idna certifi requests bs4
 pkg install ssl -y
-rm -rf Paid
+rm -rf Abhixd
 git clone https://github.com/4bHii-057/Abhixd.git
-cd Paid
-python Abhii.py
+cd Abhixd
+python Abhiii.py
 ```
 
 ![IMG](https://raw.githubusercontent.com/4bHii-057/Headoffice/refs/heads/xg/IMG_20250118_194245.jpg)
